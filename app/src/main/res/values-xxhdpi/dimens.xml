@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_line_width">2dp</dimen>
+
+    <dimen name="tool_bar_height">30dp</dimen>
+    <dimen name="tool_bar_item_width">40dp</dimen>
+    <dimen name="tool_bar_item_padding">4dp</dimen>
+
+    <dimen name="close_pop_width">300dp</dimen>
+    <dimen name="close_pop_height">190dp</dimen>
+    <dimen name="close_pop_padding">27dp</dimen>
+    <dimen name="close_pop_bg_radius">5dp</dimen>
+    <dimen name="close_pop_give_up_text_size">20sp</dimen>
+    <dimen name="close_pop_discard_changes_text_size">16dp</dimen>
+    <dimen name="close_pop_button_size">14sp</dimen>
+
+    <dimen name="history_recycler_item_space">3dp</dimen>
+
+    <dimen name="setting_activity_item_padding">10dp</dimen>
+    <dimen name="setting_activity_text_size">16sp</dimen>
+    <dimen name="setting_activity_color_preview_wh">15dp</dimen>
+    <dimen name="setting_activity_explain_size">20dp</dimen>
+
+    <dimen name="select_color_space_height">3dp</dimen>
+    <dimen name="select_color_button_space_width">15dp</dimen>
+
+    <dimen name="select_paint_width_padding">10dp</dimen>
+    <dimen name="select_paint_width_preview_height">200dp</dimen>
+    <dimen name="select_paint_width_space_height">15dp</dimen>
+    <dimen name="select_paint_width_edit_height">100dp</dimen>
+</resources>

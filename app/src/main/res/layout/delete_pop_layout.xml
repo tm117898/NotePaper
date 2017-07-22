@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tool_bar_item_press_bg"
+              android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="@dimen/close_pop_width"
+        android:layout_height="@dimen/close_pop_height"
+        android:background="@drawable/close_pop_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/close_pop_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_note_paper"
+            android:textColor="@color/close_pop_text_color"
+            android:textSize="@dimen/close_pop_give_up_text_size"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/will_delete"
+            android:textColor="@color/close_pop_text_color"
+            android:textSize="@dimen/close_pop_discard_changes_text_size"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tool_bar_item_bg"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/close_pop_button_color"
+                android:textSize="@dimen/close_pop_button_size"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tool_bar_item_bg"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:textColor="@color/close_pop_button_color"
+                android:textSize="@dimen/close_pop_button_size"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

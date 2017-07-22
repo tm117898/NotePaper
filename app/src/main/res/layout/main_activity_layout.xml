@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cesc.shang.notepaper.view.NoteView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/note_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/tool_bar_relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_bar_height"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/previous_step_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/previous_step"/>
+
+        <ImageView
+            android:id="@+id/next_step_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/previous_step_image"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/next_step"/>
+
+        <ImageView
+            android:id="@+id/clear_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/next_step_image"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/clear"/>
+
+        <!--        <ImageView
+                    android:id="@+id/switch_screen_image"
+                    android:layout_width="@dimen/tool_bar_item_width"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/clear_image"
+                    android:background="@android:color/holo_orange_dark"
+                    android:padding="@dimen/tool_bar_item_padding"/>-->
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/close_image"
+            android:layout_toRightOf="@+id/clear_image"/>
+
+        <ImageView
+            android:id="@+id/close_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/save_image"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/close"/>
+
+        <ImageView
+            android:id="@+id/save_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/history_image"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/save"/>
+
+        <ImageView
+            android:id="@+id/history_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/setting_image"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/history"/>
+
+        <ImageView
+            android:id="@+id/setting_image"
+            android:layout_width="@dimen/tool_bar_item_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tool_bar_item_bg"
+            android:padding="@dimen/tool_bar_item_padding"
+            android:src="@mipmap/settings"/>
+    </RelativeLayout>
+</merge>

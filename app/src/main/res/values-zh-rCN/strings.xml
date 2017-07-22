@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="give_up">舍弃</string>
+    <string name="discard_changes">将丢弃全部更改 ?</string>
+    <string name="cancel">取消</string>
+    <string name="discard">舍弃</string>
+
+    <string name="select_paint_color">请选择画笔颜色:</string>
+    <string name="select_paint_width">请选择画笔粗细:</string>
+    <string name="select_bg_color">请选择背景颜色:</string>
+    <string name="contact_us">关于我们:</string>
+
+    <string name="select_email_client">选择邮件客户端</string>
+
+    <string name="restore_defaults_color">恢复默认颜色</string>
+    <string name="restore_defaults_width">恢复默认粗细</string>
+    <string name="confirm">提交</string>
+
+    <string name="delete_note_paper">删除该便签</string>
+    <string name="will_delete">该便签将被删除</string>
+    <string name="delete">删除</string>
+</resources>

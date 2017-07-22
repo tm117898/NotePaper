@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="all_bg">#ffffff</color>
+
+    <color name="default_pager_color">#fcf1aa</color>
+    <color name="default_paint_color">#000000</color>
+
+    <color name="tool_bar_item_press_bg">#66666666</color>
+
+    <color name="close_pop_text_color">#000000</color>
+    <color name="close_pop_button_color">#0094b0</color>
+
+    <color name="setting_activity_text_color">#000000</color>
+    <color name="setting_activity_divide_color">#b2b2b2</color>
+    <color name="setting_activity_explain_color">#0080ff</color>
+</resources>

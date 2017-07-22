@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NotePaper</string>
+
+    <string name="give_up">Give Up</string>
+    <string name="discard_changes">Will discard all changes ?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="discard">DISCARD</string>
+
+    <string name="select_paint_color">Select the brush color:</string>
+    <string name="select_paint_width">Select the brush size:</string>
+    <string name="select_bg_color">Select the background color:</string>
+    <string name="contact_us">Contact us:</string>
+    <string name="explain">潇洒哥出品，必属精品！</string>
+
+    <string name="select_email_client">Select E-mail client</string>
+
+    <string name="restore_defaults_color">Restore defaults color</string>
+    <string name="restore_defaults_width">Restore defaults width</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="delete_note_paper">Delete Note Paper</string>
+    <string name="will_delete">The note paper will be deleted</string>
+    <string name="delete">DELETE</string>
+</resources>

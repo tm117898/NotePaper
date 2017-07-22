@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/all_bg"
+              android:orientation="vertical"
+              android:padding="5dp">
+
+    <FrameLayout
+        android:id="@+id/select_paint_color_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/setting_activity_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="@string/select_paint_color"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <View
+            android:id="@+id/paint_color_preview_view"
+            android:layout_width="@dimen/setting_activity_color_preview_wh"
+            android:layout_height="@dimen/setting_activity_color_preview_wh"
+            android:layout_gravity="center_vertical|right"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/setting_activity_divide_color"/>
+
+    <FrameLayout
+        android:id="@+id/select_paint_width_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/setting_activity_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="@string/select_paint_width"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <TextView
+            android:id="@+id/paint_width_preview_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/setting_activity_divide_color"/>
+
+    <FrameLayout
+        android:id="@+id/select_bg_color_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/setting_activity_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="@string/select_bg_color"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <View
+            android:id="@+id/bg_color_preview_view"
+            android:layout_width="@dimen/setting_activity_color_preview_wh"
+            android:layout_height="@dimen/setting_activity_color_preview_wh"
+            android:layout_gravity="center_vertical|right"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/setting_activity_divide_color"/>
+
+    <FrameLayout
+        android:id="@+id/contact_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/setting_activity_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="@string/contact_us"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <TextView
+            android:id="@+id/e_mail_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/setting_activity_divide_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="@string/explain"
+        android:textColor="@color/setting_activity_explain_color"
+        android:textSize="@dimen/setting_activity_explain_size"/>
+</LinearLayout>

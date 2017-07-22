@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/all_bg"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="@dimen/select_paint_width_padding">
+
+    <cesc.shang.notepaper.view.PaintWidthPreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_paint_width_preview_height"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_paint_width_space_height"/>
+
+    <EditText
+        android:id="@+id/width_edit"
+        android:layout_width="@dimen/select_paint_width_edit_height"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@color/setting_activity_text_color"
+        android:textSize="@dimen/setting_activity_text_size"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_paint_width_space_height"/>
+
+    <SeekBar
+        android:id="@+id/width_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="@integer/paint_max_width"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_paint_width_space_height"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/restore_defaults_color_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_defaults_width"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <Space
+            android:layout_width="@dimen/select_color_button_space_width"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/confirm"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+    </LinearLayout>
+</LinearLayout>

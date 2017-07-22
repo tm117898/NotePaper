@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="activity_in_anim_duration">200</integer>
+    <integer name="history_recycler_span_count">3</integer>
+    <integer name="paint_max_width">30</integer>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/black"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.larswerkman.holocolorpicker.ColorPicker
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <com.larswerkman.holocolorpicker.SVBar
+        android:id="@+id/sv_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <com.larswerkman.holocolorpicker.OpacityBar
+        android:id="@+id/opacity_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <com.larswerkman.holocolorpicker.SaturationBar
+        android:id="@+id/saturation_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <com.larswerkman.holocolorpicker.ValueBar
+        android:id="@+id/value_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_color_space_height"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/restore_defaults_color_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_defaults_color"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+
+        <Space
+            android:layout_width="@dimen/select_color_button_space_width"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/confirm"
+            android:textColor="@color/setting_activity_text_color"
+            android:textSize="@dimen/setting_activity_text_size"/>
+    </LinearLayout>
+
+</LinearLayout>

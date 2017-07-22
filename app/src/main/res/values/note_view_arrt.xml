@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="note_view_arrt">
+        <attr name="scale" format="integer"/>
+    </declare-styleable>
+</resources>
